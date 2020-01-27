@@ -1,0 +1,111 @@
+#index {
+	background-image: url('pics/sky.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	/*background-attachment: fixed;
+  	height: 100vh;*/
+}
+#blog {
+  	background-image: url('pics/forest.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	/*background-attachment: fixed;
+  	height: 100vh;*/
+}
+#portfolio {
+	background-image: url('pics/water.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	/*background-attachment: fixed;
+  	height: 100vh;*/
+}
+#bar {
+	margin-top: 100px;
+}
+p {
+	font-size: 25px;
+}
+#bar a {
+	font-size: 60px;
+	text-decoration: none;
+	padding: 15px;
+	/*border: #E6E6E6 2px solid;*/
+	background-color: rgba(0, 0, 0, .5) !important;
+}
+#bar a:hover {
+	background-color: black !important;
+	text-decoration: none !important;
+	color: #E6E6E6 !important;
+}
+#bar a:active {
+	border: #E6E6E6 2px solid;
+}
+#info {
+	margin-top: 150px;
+}
+#me {
+	height: 540px;
+	position: relative;
+	/*right: 50px;
+	top: 100px;*/
+	opacity: 0.3;
+	border-radius: 35px;
+}
+.article {
+	background-color: rgba(200, 200, 200, .8);
+	padding-top: 15px;
+	margin-top: 100px;
+}
+#games h1 {
+	display: flex;
+	justify-content: center;
+	color: red;
+}
+.icon {
+	height: 500px;
+	width: 350px;
+}
+.cool-font {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #E6E6E6;
+}
+.text-font {
+	font-family: 'Courier Prime', monospace;
+	color: #A4A4A4;
+}
+.title {
+	font-size: 3.6rem;
+	color: black;
+}
+.sub-title {
+	font-size: 2.5 !important; /*not working*/
+	margin-top: 50px;
+	color: black;
+}
+.segment {
+	font-size: 2rem;
+	color: #B45F04;
+	margin-top: 50px;
+}
+.article p {
+	color: black;
+}
+.space {
+	margin-top: 90px;
+}
+#ethical {
+	width: 100%;
+}
+.ethical-icon {
+	height: 300px;
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+
+    
+    
+

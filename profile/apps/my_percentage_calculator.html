@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Percentage Calculator</title>
+	<style>
+		div {
+			background-color: #99b3ff;
+			margin: auto auto 40px auto;
+			width: 330px;
+			padding: 10px;
+			line-height: 1.6;
+		}
+		input {
+			width: 60px;
+		}
+		button {
+			background-color: #5D4CAF;
+  			border: none;
+   			padding: 15px 32px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+			color: white;
+			margin-top: 20px;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+	</style>
+</head>
+<body>
+	<center><h1 style="margin-bottom: 40px;">Binky's Percentage<br> Calculator</h1></center>
+	<div>
+		What is <input type="text" id="1a"> % of <input type="text" id="1b"> ?<br>
+		<button type="button" onclick="one()">Calculate</button> <input type="text" id=1c readonly>
+	</div>
+	<div>
+		<input type="text" id="2a"> is what percent of <input type="text" id="2b">?<br>
+		<button type="button" onclick="two()">Calculate</button> <input type="text" id="2c" readonly> %
+	</div>
+	<div>
+		What is the percentage increase/decrease<br>
+		from <input type="text" id="3a"> to <input type="text" id="3b"> ?<br>
+		<button type="button" onclick="three()">Calculate</button> <input type="text" id="3c" readonly> %
+	</div>
+
+
+	<script>
+		document.getElementById("1c").value = ""
+		document.getElementById("2c").value = ""
+		document.getElementById("3c").value = ""
+
+		function one() {
+			a = document.getElementById("1c")
+			q1 = document.getElementById("1a")
+			q2 = document.getElementById("1b")
+			a.value = q1.value / 100 * q2.value
+		}
+		function two() {
+			a = document.getElementById("2c")
+			q1 = document.getElementById("2a")
+			q2 = document.getElementById("2b")
+			a.value = q1.value * 100 / q2.value
+		}
+		function three() {
+			a = document.getElementById("3c")
+			q1 = document.getElementById("3a")
+			q2 = document.getElementById("3b")
+			dif = q2.value - q1.value
+			a.value = dif / q1.value * 100
+		}
+	</script>
+</body>
+</html>
