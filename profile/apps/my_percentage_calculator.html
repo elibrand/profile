@@ -25,10 +25,27 @@
 			margin-top: 20px;
 			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 		}
+
+		/*for portforlio only*/
+		#back {
+			background-color: #d64161;
+			text-decoration: none;
+			padding: 50px;
+			font-size: 30px;
+			color: #feb236;
+		}
+		#back:hover {
+			background-color: black;
+			text-decoration: none;
+		}
 	</style>
 </head>
 <body>
 	<center><h1 style="margin-bottom: 40px;">Binky's Percentage<br> Calculator</h1></center>
+
+	<!-- for portforlio only -->
+	<a href="../portfolio.html" id="back">Back to Portfolio</a>
+
 	<div>
 		What is <input type="text" id="1a"> % of <input type="text" id="1b"> ?<br>
 		<button type="button" onclick="one()">Calculate</button> <input type="text" id=1c readonly>

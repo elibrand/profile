@@ -43,6 +43,9 @@ p {
 #bar a:active {
 	border: #E6E6E6 2px solid;
 }
+.current {
+	border: #E6E6E6 2px solid;
+}
 #info {
 	margin-top: 150px;
 }
