@@ -22,6 +22,22 @@
   	/*background-attachment: fixed;
   	height: 100vh;*/
 }
+#about {
+	background-image: url('pics/fish.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	/*background-attachment: fixed;
+  	height: 100vh;*/
+}
+#resume {
+	background-image: url('pics/path.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	/*background-attachment: fixed;
+  	height: 100vh;*/
+}
 #bar {
 	margin-top: 100px;
 }
@@ -50,7 +66,8 @@ p {
 	margin-top: 150px;
 }
 #me {
-	height: 540px;
+	/*height: 540px;*/
+	width: 80%;
 	position: relative;
 	/*right: 50px;
 	top: 100px;*/
@@ -78,6 +95,9 @@ p {
 .text-font {
 	font-family: 'Courier Prime', monospace;
 	color: #A4A4A4;
+}
+.resume-font {
+	font-family: 'Ubuntu', sans-serif;
 }
 .title {
 	font-size: 3.6rem;
@@ -107,7 +127,13 @@ p {
 	width: 500px;
 	margin-bottom: 30px;
 }
-
+.center {
+	display: flex;
+	justify-content: center;
+}
+#yeah {
+	font-size: 40px;
+}
 
     
     
